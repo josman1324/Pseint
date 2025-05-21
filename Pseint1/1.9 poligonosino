@@ -1,0 +1,46 @@
+Algoritmo poligonosino
+	definir ladosp Como Real
+	escribir "digite los lados del poligono";
+	leer ladosp
+	si ladosp=1 Entonces
+		escribir " es una recta";
+	SiNo
+		si ladosp=2 entonces
+			escribir" es un angulo"
+		sino
+			si ladosp=3 Entonces
+				escribir " es una triangulo";
+			SiNo
+				si ladosp=4 entonces
+					escribir" es un cuadrilatero"
+				sino
+			
+				si ladosp=5 Entonces
+					escribir " es una pentagono";
+				SiNo
+					si ladosp=6 entonces
+						escribir" es un hexagono"
+					sino
+						si ladosp=7 entonces
+							escribir" es un heptagono"
+						sino
+							si ladosp=8 entonces
+								escribir" es un octagono"
+							sino
+								si ladosp=9 entonces
+									escribir" es un nonagono"
+								sino
+									si ladosp>=10 entonces
+										escribir" es un poligono de ", ladosp," lados"
+									sino
+								FinSi
+							finsi
+							finsi
+						FinSi
+						finsi
+		FinSi
+	FinSi
+finsi
+FinSi
+finsi
+FinAlgoritmo

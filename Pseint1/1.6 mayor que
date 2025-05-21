@@ -1,0 +1,23 @@
+Algoritmo sin_titulo
+	definir n1,n2 como real;
+	escribir "digite numero 1"
+	leer n1
+	escribir "digite numero 2"
+	leer n2
+	si n1=n2 Entonces
+		escribir"no hay mayor"
+	sino 
+		si (n1>n2) Entonces
+		escribir "numero 1 es mayor"
+	sino 
+		escribir "numero 2 es mayor"
+	FinSi
+	FinSi
+FinAlgoritmo
+
+
+
+
+
+
+

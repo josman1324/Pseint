@@ -1,0 +1,18 @@
+Algoritmo temperatura
+	definir temperaturas como real;
+	escribir"digite temperatura en centigrados"
+	leer temperaturas
+	si temperaturas<15 Entonces
+		escribir "temperatura es fria"
+	SiNo
+		si temperaturas>25 Entonces
+			Escribir "la temperaturas es caliente"
+		SiNo
+			si temperaturas>=15 y temperaturas<=25
+			Escribir "la temperatura es templada"
+			FinSi
+		FinSi
+	FinSi
+	
+	
+FinAlgoritmo
